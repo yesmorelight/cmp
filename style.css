@@ -65,7 +65,6 @@ a:hover {
 .land_area {
   height: auto;
   background-image: url("https://i0.wp.com/srbest.files.wordpress.com/2017/10/screen-shot-2017-10-02-at-22-29-33.png?ssl=1");
-  background-color: black;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,7 +153,7 @@ label {
 
 @media only screen and (max-width: 700px) {
   .container {
-   padding: 1rem;
+   padding: 1.5rem;
  }
   li {
     display: block;
