@@ -1,7 +1,7 @@
 /*        GENERAL        */
 body {
  margin: 0;
- overflow: hidden;
+ overflow-y: hidden;
 }
 
 .container{
