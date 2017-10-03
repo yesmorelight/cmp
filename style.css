@@ -1,0 +1,160 @@
+/*        GENERAL        */
+body {
+ margin: 0;
+}
+
+.container{
+  padding: 5rem;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+
+h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+  color: #696969;
+}
+
+p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.25rem;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0 0 18rem 0;
+  margin: 0;
+}
+
+li {
+  margin: 0 2rem 0;
+  display: inline-block;
+}
+
+a {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #024766;
+}
+
+
+/*        LANDING        */
+
+.land_area {
+  height: auto;
+  background-image: url("https://i0.wp.com/srbest.files.wordpress.com/2017/10/screen-shot-2017-10-02-at-22-29-33.png?ssl=1");
+  background-color: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header {
+  padding: 18rem 0 0.4rem 0;
+  text-align: center;
+  border-bottom: 3px solid white;
+}
+
+.trailer {
+
+  margin: 4rem 0 3rem 0;
+}
+
+.credits_btn {
+  margin: 2rem 0;
+  color: white;
+}
+
+.credits {
+  padding-bottom: 2rem;
+}
+
+.crew-cast {
+  width: 40%;
+}
+
+.break {
+  background-color: #1F1E1E;
+  height: auto;
+}
+
+.about {
+  padding: 10rem 0;
+}
+
+.abtP {
+  text-align: justify;
+}
+
+#contact-title {
+  padding: 3rem 0;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: #3A3B39;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+
+/* submit button  */
+
+input[type=submit] {
+  padding: 0.5rem 1rem;
+  background-color: #024766;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+
+label {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  
+  li {
+    display: block;
+  }
+}
